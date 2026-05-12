@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+body{
+    background: #f5f5f5;
+}
+header{
+    background: #0d6efd;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+}
+.hero{
+    height: 8vh;
+    background: #bdeafe;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.hero h2{
+    font-size: 45px;
+}
+.hero p{
+    margin: 20px;
+}
+.hero button{
+    padding: 12px 25px;
+    border: none;
+    background: #0d6efd;
+    color: white;
+    cursor: 40px;
+}
+.services{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px;
+}
+.card{
+    background: white;
+    padding: 30px;
+    width: 250px;
+    border-radius: 10px;
+    text-align: center;
+}
+.maison{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px;
+}
+.maison{
+    background: white;
+    width: 300px;
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: center;
+}
+.maison img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+.maison button{
+    margin: 20px;
+    padding: 10px 20px;
+    border: none;
+    background: #bdeafe;
+    color: white;
+}
