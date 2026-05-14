@@ -6,8 +6,17 @@
 }
 
 body {
-    background-color: #f9f9f9;
+    background-color: #464343;
 
+}
+.v8{
+    background: #f8e913;
+    padding: 5px;
+    border-radius: 5px;
+    
+}
+a{
+    color: #000000;
 }
 
 
@@ -16,8 +25,8 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 15px 20px;
-    background: white;
-    border-bottom: 1px solid #ddd;
+    background: rgba(255, 255, 255, 0.397);
+    border-bottom: 1px solid #ddddddb7;
 }
 
 .logo {
@@ -57,20 +66,22 @@ body {
 
 .hero-content h1 { font-size: 1.5rem; margin-bottom: 10px; }
 
-.btn-whatsapp {
-    display: inline-block;
-    background-color: #25D366;
+.btn-contact {
+    display: block;
+    text-align: center;
+    background: #25D366; /* Couleur WhatsApp */
     color: white;
-    padding: 10px 25px;
     text-decoration: none;
-    border-radius: 5px;
-    margin: 15px 0;
+    padding: 12px;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: 0.3s;
 }
 
 
 .search-section {
     padding: 20px;
-    background: white;
+    background: rgba(255, 255, 255, 0.623);
 }
 
 .form-group {
@@ -89,13 +100,13 @@ select, input {
     padding: 12px;
     border: 1px solid #111111;
     border-radius: 4px;
-    background: #fdfdfd;
+    background: #fdfdfdb2;
 }
 
 .btn-search {
     width: 100%;
-    background-color: #695347; /* Orange foncé */
-    color: white;
+    background-color: #ecf00c; /* Orange foncé */
+    color: rgb(17, 17, 17);
     border: none;
     padding: 15px;
     font-weight: bold;
@@ -110,12 +121,12 @@ select, input {
 }
 
 .about-section h2 { margin-bottom: 10px; }
-.about-section p { color: #555; line-height: 1.6; margin-bottom: 20px; }
+.about-section p { color: #0f0f0f; line-height: 1.6; margin-bottom: 20px; }
 
-.btn-contact {
+.btn-contacts {
     background: none;
-    border: 2px solid #07c507a8;
-    color: #0bda50;
+    border: 2px solid #fbff12a8;
+    color: #000000;
     padding: 10px 30px;
     border-radius: 5px;
     cursor: pointer;
