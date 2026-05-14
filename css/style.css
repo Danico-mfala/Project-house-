@@ -1,0 +1,76 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    background-color: lightgray;
+}
+
+h2{
+    font-size: 40px;
+}
+
+.dore{
+    color: goldenrod;
+    font-weight: bold;
+}
+
+.service-container{
+    display: flex;
+    gap: 5;
+}
+
+.btn-more{
+    margin-top: 20px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 50px;
+    color: #ff9800;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.service-card:hover .btn-more{
+    background: white;
+    color: #ff9800;
+}
+
+.service-card{
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border-radius: 15px;
+    padding: 20px;
+    width: 600px;
+    text-align: center;
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.15);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    transition: transform 0.3s ease;
+}
+
+.service-card:hover{
+    transform: translateY(-10px);
+    background: goldenrod;
+    color: white;
+}
+
+.service-vente{
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border-radius: 15px;
+    padding: 20px;
+    width: 600px;
+    text-align: center;
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.15);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    transition: transform 0.3s ease;
+} 
+
+.service-vente:hover{
+    transform: translateY(-10px);
+    background: goldenrod;
+    color: white;
+}
+
+.service-vente .btn-more{
+    background: white;
+    color: #ff9800;
+}
